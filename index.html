@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bean Scene | We've got your morning covered with Coffee</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#top" class="logo">Bean Scene</a>
+
+    <nav class="nav" id="nav">
+      <ul class="nav__list">
+        <li><a href="#top" class="nav__link active">Home</a></li>
+        <li><a href="#menu" class="nav__link">Menu</a></li>
+        <li><a href="#about" class="nav__link">About Us</a></li>
+        <li><a href="#contact" class="nav__link">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <a href="#" class="link-signin">Sign In</a>
+      <a href="#" class="btn btn--pill">SingUp</a>
+      <button class="burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="top" style="background-image:url('assets/hero-bg.jpg')">
+  <div class="hero__overlay"></div>
+  <div class="container hero__inner">
+    <p class="hero__eyebrow" data-aos>We've got your morning covered with</p>
+    <h1 class="hero__title" data-aos>Coffee</h1>
+    <p class="hero__desc" data-aos>
+      It is best to start your day with a cup of coffee. Discover the
+      best flavours coffee you will ever have. We provide the best
+      for our customers.
+    </p>
+    <a href="#menu" class="btn btn--pill" data-aos>Order Now</a>
+  </div>
+</section>
+
+<!-- ===================== ABOUT / DISCOVER ===================== -->
+<section class="about" id="about">
+  <div class="container about__inner">
+    <div class="about__text" data-aos>
+      <h2 class="heading">Discover the best coffee</h2>
+      <p class="text">
+        Bean Scene is a coffee shop that provides you with quality coffee
+        that helps boost your productivity and helps build your mood.
+        Having a cup of coffee is good, but having a cup of real coffee is
+        greater. There is no doubt that you will enjoy this coffee more
+        than others you have ever tasted.
+      </p>
+      <a href="#menu" class="btn btn--pill">Learn More</a>
+    </div>
+    <div class="about__image" data-aos>
+      <img src="assets/beans-cup.png" alt="Coffee beans arranged in the shape of a cup">
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MENU ===================== -->
+<section class="menu" id="menu">
+  <img src="assets/spill.png" class="splash splash--menu" alt="" aria-hidden="true">
+  <div class="container">
+    <div class="section-head" data-aos>
+      <h2 class="heading heading--center">Enjoy a new blend of coffee style</h2>
+      <p class="subtext">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+    </div>
+
+    <div class="menu__grid">
+      <article class="menu-card" data-aos>
+        <div class="menu-card__img"><img src="assets/cappuccino.jpg" alt="Cappuccino with heart-shaped latte art"></div>
+        <div class="menu-card__body">
+          <h3>Cappuccino</h3>
+          <p class="menu-card__desc">Coffee 50% | Milk 50%</p>
+          <p class="menu-card__price">$8.50</p>
+          <a href="#contact" class="btn btn--pill btn--sm">Order Now</a>
+        </div>
+      </article>
+
+      <article class="menu-card" data-aos>
+        <div class="menu-card__img"><img src="assets/chai-latte.jpg" alt="Chai Latte topped with cinnamon"></div>
+        <div class="menu-card__body">
+          <h3>Chai Latte</h3>
+          <p class="menu-card__desc">Coffee 50% | Milk 50%</p>
+          <p class="menu-card__price">$8.50</p>
+          <a href="#contact" class="btn btn--pill btn--sm">Order Now</a>
+        </div>
+      </article>
+
+      <article class="menu-card" data-aos>
+        <div class="menu-card__img"><img src="assets/macchiato.jpg" alt="Macchiato in a double-walled glass"></div>
+        <div class="menu-card__body">
+          <h3>Macchiato</h3>
+          <p class="menu-card__desc">Coffee 50% | Milk 50%</p>
+          <p class="menu-card__price">$8.50</p>
+          <a href="#contact" class="btn btn--pill btn--sm">Order Now</a>
+        </div>
+      </article>
+
+      <article class="menu-card" data-aos>
+        <div class="menu-card__img"><img src="assets/espresso.jpg" alt="Espresso served with wafer biscuits"></div>
+        <div class="menu-card__body">
+          <h3>Expresso</h3>
+          <p class="menu-card__desc">Coffee 50% | Milk 50%</p>
+          <p class="menu-card__price">$8.50</p>
+          <a href="#contact" class="btn btn--pill btn--sm">Order Now</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHY ARE WE DIFFERENT ===================== -->
+<section class="why">
+  <img src="assets/spill.png" class="splash splash--why" alt="" aria-hidden="true">
+  <div class="container">
+    <div class="section-head" data-aos>
+      <h2 class="heading heading--center">Why are we different?</h2>
+      <p class="subtext">We don't just make your coffee, we make your day!</p>
+    </div>
+
+    <div class="why__grid">
+      <div class="why-card why-card--active" data-aos>
+        <span class="why-card__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+            <ellipse cx="18" cy="30" rx="10" ry="14" transform="rotate(-35 18 30)"/>
+            <ellipse cx="30" cy="18" rx="10" ry="14" transform="rotate(-35 30 18)"/>
+            <path d="M24 24 L24 24" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <h3>Supreme Beans</h3>
+        <p>Beans that provides great taste</p>
+      </div>
+
+      <div class="why-card" data-aos>
+        <span class="why-card__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="24" cy="18" r="10"/>
+            <path d="M24 12 L26 16 L30 17 L27 20 L28 24 L24 22 L20 24 L21 20 L18 17 L22 16 Z" fill="currentColor" stroke="none"/>
+            <path d="M18 26 L14 40 L24 35 L34 40 L30 26"/>
+          </svg>
+        </span>
+        <h3>High Quality</h3>
+        <p>We provide the highest quality</p>
+      </div>
+
+      <div class="why-card" data-aos>
+        <span class="why-card__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10 18 h22 a4 4 0 0 1 4 4 v2 a8 8 0 0 1-8 8 h-10 a8 8 0 0 1-8-8 z"/>
+            <path d="M32 20 h4 a4 4 0 0 1 0 8 h-4"/>
+            <path d="M14 32 h16 v3 a2 2 0 0 1-2 2 h-12 a2 2 0 0 1-2-2 z"/>
+            <path d="M16 12 q2 3 0 5" stroke-linecap="round"/>
+            <path d="M22 10 q2 3 0 5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <h3>Extraordinary</h3>
+        <p>Coffee like you have never tasted</p>
+      </div>
+
+      <div class="why-card" data-aos>
+        <span class="why-card__icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10 22 h6 v16 h-6 z"/>
+            <path d="M16 24 l6-4 a3 3 0 0 1 3 1 l8 2 a3 3 0 0 1 0 6 h-8"/>
+            <path d="M16 34 l8 3 h8 a3 3 0 0 0 0-6"/>
+            <circle cx="34" cy="14" r="6"/>
+            <path d="M34 11 v6 M31.5 14 h5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <h3>Affordable Price</h3>
+        <p>Our Coffee prices are easy to afford</p>
+      </div>
+    </div>
+
+    <p class="why__footnote" data-aos>Great ideas start with great coffee, Lets help you achieve that</p>
+  </div>
+</section>
+
+<!-- ===================== GET STARTED / CTA ===================== -->
+<section class="get-started">
+  <h2 class="heading heading--center" data-aos>Get started today.</h2>
+  <a href="#contact" class="btn btn--pill" data-aos>Join Us</a>
+</section>
+
+<!-- ===================== AMAZING MORNING CTA ===================== -->
+<section class="morning" style="background-image:url('assets/cta-bg.jpg')">
+  <div class="morning__overlay"></div>
+  <div class="container morning__inner">
+    <div class="morning__text" data-aos>
+      <h2 class="heading heading--light">Get a chance to have an Amazing morning</h2>
+      <p class="text text--light">We are giving you are one time opportunity to experience a better life with coffee.</p>
+      <a href="#contact" class="btn btn--pill">Order Now</a>
+    </div>
+    <div class="morning__image" data-aos>
+      <img src="assets/coffee-cup.png" alt="Takeaway coffee cup">
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="testimonials" id="contact">
+  <img src="assets/spill.png" class="splash splash--testimonial-top" alt="" aria-hidden="true">
+  <img src="assets/spill.png" class="splash splash--testimonial-bottom" alt="" aria-hidden="true">
+  <div class="container">
+    <div class="section-head" data-aos>
+      <h2 class="heading heading--center">Our coffee perfection feedback</h2>
+      <p class="subtext">Our customers has amazing things to say about us</p>
+    </div>
+
+    <div class="testimonial-slider" data-aos>
+      <button class="slider-arrow slider-arrow--prev" id="prevSlide" aria-label="Previous testimonial">&#8592;</button>
+
+      <div class="testimonial-track" id="testimonialTrack">
+        <div class="testimonial-card">
+          <span class="quote-mark">&#8220;&#8220;</span>
+          <p class="testimonial-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley of type and scrambled it to make a type specimen book. It has survived not only five
+            centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset&hellip;
+          </p>
+          <h3 class="testimonial-name">Jonny Thomas</h3>
+          <p class="testimonial-role">Project Manager</p>
+          <div class="testimonial-avatar">JT</div>
+        </div>
+
+        <div class="testimonial-card">
+          <span class="quote-mark">&#8220;&#8220;</span>
+          <p class="testimonial-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not
+            only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged, and continues to be the industry's go-to sample text for layouts and mockups today.
+          </p>
+          <h3 class="testimonial-name">Sarah Miller</h3>
+          <p class="testimonial-role">Marketing Lead</p>
+          <div class="testimonial-avatar">SM</div>
+        </div>
+
+        <div class="testimonial-card">
+          <span class="quote-mark">&#8220;&#8220;</span>
+          <p class="testimonial-text">
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. It has survived
+            not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged and beloved by designers everywhere for its neutral, readable placeholder rhythm.
+          </p>
+          <h3 class="testimonial-name">David Chen</h3>
+          <p class="testimonial-role">Regular Customer</p>
+          <div class="testimonial-avatar">DC</div>
+        </div>
+      </div>
+
+      <button class="slider-arrow slider-arrow--next" id="nextSlide" aria-label="Next testimonial">&#8594;</button>
+    </div>
+
+    <div class="testimonial-dots" id="testimonialDots"></div>
+  </div>
+</section>
+
+<!-- ===================== NEWSLETTER ===================== -->
+<section class="newsletter" style="background-image:url('assets/cta-bg.jpg')">
+  <div class="newsletter__overlay"></div>
+  <div class="container newsletter__inner" data-aos>
+    <h2 class="heading heading--light">Subscribe to get the Latest News</h2>
+    <p class="text text--light">Don't miss out on our latest news, updates, tips and special offers</p>
+    <form class="newsletter__form" id="newsletterForm">
+      <input type="email" placeholder="Enter your mail" required aria-label="Email address">
+      <button type="submit" class="btn btn--pill">Suscribe</button>
+    </form>
+    <p class="newsletter__msg" id="newsletterMsg" role="status"></p>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col footer__col--brand">
+      <a href="#top" class="logo logo--footer">Bean Scene</a>
+      <p class="text text--light">
+        Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an
+        unknown printer took a galley of type and scrambled it to
+        make a type specimen book.
+      </p>
+      <div class="social">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c2.7 0 3.1 0 4.1.1 1.1 0 1.8.2 2.5.5.7.3 1.2.6 1.7 1.2.6.5.9 1 1.2 1.7.3.7.5 1.4.5 2.5.1 1 .1 1.4.1 4.1s0 3.1-.1 4.1c0 1.1-.2 1.8-.5 2.5-.3.7-.6 1.2-1.2 1.7-.5.6-1 .9-1.7 1.2-.7.3-1.4.5-2.5.5-1 .1-1.4.1-4.1.1s-3.1 0-4.1-.1c-1.1 0-1.8-.2-2.5-.5-.7-.3-1.2-.6-1.7-1.2-.6-.5-.9-1-1.2-1.7-.3-.7-.5-1.4-.5-2.5C2 15.1 2 14.7 2 12s0-3.1.1-4.1c0-1.1.2-1.8.5-2.5.3-.7.6-1.2 1.2-1.7.5-.6 1-.9 1.7-1.2.7-.3 1.4-.5 2.5-.5C8.9 2 9.3 2 12 2zm0 1.8c-2.6 0-3 0-4 .1-.9 0-1.4.2-1.7.3-.4.2-.7.3-1 .6-.3.3-.5.6-.6 1-.1.3-.3.8-.3 1.7-.1 1-.1 1.4-.1 4s0 3 .1 4c0 .9.2 1.4.3 1.7.2.4.3.7.6 1 .3.3.6.5 1 .6.3.1.8.3 1.7.3 1 .1 1.4.1 4 .1s3 0 4-.1c.9 0 1.4-.2 1.7-.3.4-.2.7-.3 1-.6.3-.3.5-.6.6-1 .1-.3.3-.8.3-1.7.1-1 .1-1.4.1-4s0-3-.1-4c0-.9-.2-1.4-.3-1.7-.2-.4-.3-.7-.6-1-.3-.3-.6-.5-1-.6-.3-.1-.8-.3-1.7-.3-1-.1-1.4-.1-4-.1zm0 3.5a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4zm0 1.8a2.9 2.9 0 1 0 0 5.8 2.9 2.9 0 0 0 0-5.8zm5-2a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0z"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-3.6-.5-5.3a2.9 2.9 0 0 0-2-2C18.7 4.2 12 4.2 12 4.2s-6.7 0-8.5.5a2.9 2.9 0 0 0-2 2C1 8.4 1 12 1 12s0 3.6.5 5.3a2.9 2.9 0 0 0 2 2c1.8.5 8.5.5 8.5.5s6.7 0 8.5-.5a2.9 2.9 0 0 0 2-2C23 15.6 23 12 23 12zM9.8 15.5V8.5l6.4 3.5z"/></svg></a>
+        <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.9c-.7.3-1.5.6-2.3.7a4 4 0 0 0 1.8-2.2c-.8.5-1.6.8-2.6 1a4 4 0 0 0-6.9 3.6A11.4 11.4 0 0 1 3.7 4.9a4 4 0 0 0 1.3 5.4c-.6 0-1.3-.2-1.8-.5v.1a4 4 0 0 0 3.3 4 4 4 0 0 1-1.8.1 4 4 0 0 0 3.8 2.8A8.1 8.1 0 0 1 2 18.4a11.4 11.4 0 0 0 6.2 1.8c7.4 0 11.5-6.2 11.5-11.5v-.5c.8-.6 1.5-1.3 2-2.1-.7.3-1.5.6-2.3.7z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>About</h4>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">News &amp; Blogs</a></li>
+        <li><a href="#">Help &amp; Supports</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">How we work</a></li>
+        <li><a href="#">Terms of service</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Contact Us</h4>
+      <p class="text text--light">Akshya Nagar 1st Block 1st Cross,<br>Rammurthy nagar, Bangalore-560016</p>
+      <p class="text text--light">+1 202-918-2132</p>
+      <p class="text text--light">beanscene@mail.com</p>
+      <p class="text text--light">www.beanscene.com</p>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>&copy; <span id="year"></span> Bean Scene. All rights reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">&#8593;</button>
+
+<script src="script.js"></script>
+</body>
+</html>
